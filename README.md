@@ -9,8 +9,8 @@ streaming interface to the window location hash
 
 ## example
 
-Emits the location hash whenever it changes. (Uses
-[the hashchange event](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange)
+Emits the location hash whenever it changes. Uses the
+[hashchange event](https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange)
 under the hood, so browser support is dictated therein.
 
 ```javascript
