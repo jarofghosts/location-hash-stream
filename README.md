@@ -39,13 +39,12 @@ hashStream.write('hash')
 
 ## API
 
-`hashStream([opts]) -> HashStream`
+`hashStream([opts]) -> stream`
 
 * `opts` is an optional configuration object. Available options are:
   - `stripHash` a `Boolean` specifying whether the emitted location hash should
     be stripped of its leading `#` character. Defaults to `false`.
-
-* `HashStream.getHash()` -> Retrieve the current hash string, respects the
+* `stream.getHash()` -> Retrieve the current hash string, respects the
   `stripHash` parameter.
 
 ## license
