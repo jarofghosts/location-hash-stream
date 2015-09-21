@@ -1,6 +1,6 @@
 {
   "name": "location-hash-stream",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "duplex streaming interface to the location hash",
   "main": "lib/index.js",
   "scripts": {
