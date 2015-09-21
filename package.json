@@ -4,7 +4,7 @@
   "description": "duplex streaming interface to the location hash",
   "main": "lib/index.js",
   "scripts": {
-    "test": "npm run lint && browserify -t babelify test/index.js | jsdom-eval | tap-set-exit",
+    "test": "npm run lint && browserify -t babelify test/index.js | ghostface | tap-set-exit",
     "lint": "standard src/**/*.js test/**/*.js",
     "build": "babel src --out-dir lib"
   },
@@ -37,7 +37,7 @@
     "eslint-config-standard-react": "^1.0.2",
     "eslint-plugin-react": "^3.1.0",
     "eslint-plugin-standard": "^1.1.0",
-    "jsdom-eval": "^0.2.5",
+    "ghostface": "^1.5.0",
     "standard": "^4.5.4",
     "tap-set-exit": "^1.1.0",
     "tape": "4.0.1"

@@ -8,7 +8,7 @@ test('emits hash changes', t => {
   const stream = hashStream()
 
   stream.on('data', data => {
-    t.equal(data.toString(), '#lol')
+    t.equal(data, '#lol')
     stream.end()
     stream.destroy()
   })
@@ -35,9 +35,9 @@ test('configurable to strip hash on emit', t => {
 
   stream.once('data', (data) => {
     // first emit is of the current hash, before change
-    t.equal(data.toString(), 'lol')
+    t.equal(data, 'lol')
     stream.once('data', data => {
-      t.equal(data.toString(), 'rofl')
+      t.equal(data, 'rofl')
       stream.end()
       stream.destroy()
     })

@@ -3,6 +3,7 @@
 [![Build Status](https://img.shields.io/travis/jarofghosts/location-hash-stream.svg?style=flat-square)](https://travis-ci.org/jarofghosts/location-hash-stream)
 [![npm install](https://img.shields.io/npm/dm/location-hash-stream.svg?style=flat-square)](https://www.npmjs.org/package/location-hash-stream)
 [![npm version](https://img.shields.io/npm/v/location-hash-stream.svg?style=flat-square)](https://www.npmjs.org/package/location-hash-stream)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
 [![License](https://img.shields.io/npm/l/location-hash-stream.svg?style=flat-square)](https://github.com/jarofghosts/location-hash-stream/blob/master/LICENSE)
 
 streaming interface to the window location hash

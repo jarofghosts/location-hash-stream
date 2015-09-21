@@ -3,7 +3,7 @@ const through = require('through2')
 module.exports = locationHashStream
 
 function locationHashStream ({stripHash = false} = {}) {
-  const stream = through(write, end)
+  const stream = through({encoding: 'utf8'}, write, end)
 
   window.addEventListener('hashchange', emitHash)
 
